@@ -116,13 +116,13 @@
 
 ### 音频
 
-- 支持ADC、DAC、LINEIN、IIS、PDM、SPDIF音频接口，其中IIS模块最高支持8个通道同时工作，可单独设置成输入或者输出、支持16/24bit数据位宽
-  PDMLINK模块支持同时接入4路数字麦，ADC支持4个通道同时工作，每通道皆可支持配置成MIC或者LINEIN，独立开关
-- 支持SBC、MSBC、CVSD、AAC、ADPCM、AMR、OPUS、SPX、WAV、PCM音频编码格式，编码数据源支持MIC、LINEIN、IIS、PDMLINK、SPDIF和虚拟数据源，支持编码数据写文件或输出
+- 集成DAC、MIC、LINEIN、IIS、PDM、SPDIF音频硬件模块，其中IIS模块最高支持8个通道同时工作，可单独设置成输入或者输出、支持16/24bit数据位宽
+  PDMLINK模块支持同时接入4路16bit数据位宽的数字麦，ADC支持4个通道同时工作，每通道皆可支持配置成MIC或者LINEIN
+- 支持SBC、MSBC、CVSD、AAC、MP2、MP3、ADPCM、AMR、OPUS、SPX、WAV、PCM音频编码格式，编码数据源支持MIC、LINEIN、IIS、PDMLINK、SPDIF和虚拟数据源
 - 支持SBC、MSBC、CVSD、AAC、ADPCM、AMR、APE、DTS、FLAC、M4A、MP1、MP2、MP3、OPUS、SPX、WAV、WMA、PCM音频解码格式，解码数据源支持FLASH、SD卡、U盘、LINEIN、外挂FM模块、网络URL、经典蓝牙、虚拟数据源、客户自定义解密数据源
 - 音效处理支持混响、回声、电音、变声变调、变速、移频、啸波抑制、EQ、DRC、回声消除、传统降噪、神经网络降噪
-- 语音识别支持单/双mic的活动语音检测VAD、打断唤醒ASR功能
-- 音频播放支持断点播放、MP3解码支持快进快退、定点播放、AB点复读播放，单独数字音量调整
+- 语音识别支持活动语音检测VAD、单/双mic的打断唤醒ASR功能
+- 部分解码格式支持断点播放、快进快退、定点播放、AB点复读播放
 
 
 
